@@ -60,12 +60,13 @@
   border-radius: 12px;
   overflow: hidden;
   width: 220px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
 }
 
 .movie-card:hover {
   transform: scale(1.03);
+  box-shadow: 0 16px 20px rgba(0, 0, 0, 0.7);
 }
 
 .movie-card img {
@@ -92,7 +93,7 @@
 .heading {
   text-align: center;
   margin-top: 1.5rem;
-  color: white;
+  color: rgb(7, 1, 1);
   font-size: 2.5rem;
 }
 
@@ -119,4 +120,22 @@
   border-radius: 6px;
   font-size: 1rem;
   cursor: pointer;
+}
+.abc{
+  color: rgb(161, 13, 13);
+  text-align: center;
+}
+#yup{
+  color:white;
+  text-align: center;
+}
+#rinki{
+  color: antiquewhite;
+  text-align: center;
+}
+.container{
+  background-color:#41458d;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }

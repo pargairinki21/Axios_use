@@ -29,9 +29,9 @@ export const Card = ({ movieData }) => {
         />
       </div>
       <div className="movie-details">
-        <h3>{title}</h3>
-        <p>Rating: {vote_average}</p>
-        <p>Release: {release_date}</p>
+        <h3 className="abc">{title}</h3>
+        <p id="yup">Rating: {vote_average}</p>
+        <p id="rinki">Release: {release_date}</p>
       </div>
     </li>
   );

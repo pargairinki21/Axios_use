@@ -109,7 +109,7 @@ export const Movie = () => {
 //   );
 // };
 return (
-    <div>
+    <div className="container">
       <h1 className="heading">Movie Explorer</h1>
 
       <div className="search-bar">
